@@ -83,7 +83,7 @@ h4 {
     height: 28rem;
     padding: 20px;
     margin: 1.5rem;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 1rem 3rem rgb(0, 0, 0, .45);
     overflow: hidden;
     cursor: pointer;
@@ -121,7 +121,12 @@ h4 {
     color: #fff;
     border-radius: 5px;
     background-color: #122953;
+    transition: .3s;
     
 }
 
+.btn_ctn:hover {
+    padding: 8px 85px;
+
+}
 
